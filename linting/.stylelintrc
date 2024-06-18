@@ -1,0 +1,39 @@
+{
+  "ignoreFiles": ["**/*.vue"],
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "block-no-empty": true,
+    "color-hex-length": "long",
+    "color-named": "never",
+    "color-no-hex": null,
+    "color-no-invalid-hex": true,
+    "declaration-block-no-duplicate-properties": null,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "declaration-block-single-line-max-declarations": 1,
+    "function-calc-no-unspaced-operator": true,
+    "function-linear-gradient-no-nonstandard-direction": true,
+    "function-url-quotes": "always",
+    "function-whitespace-after": null,
+    "length-zero-no-unit": true,
+    "max-line-length": null,
+    "no-duplicate-selectors": true,
+    "number-max-precision": 8,
+    "rule-empty-line-before": [
+      "always",
+      {
+        "except": ["first-nested"],
+        "ignore": ["after-comment"]
+      }
+    ],
+    "selector-max-id": 1,
+    "selector-pseudo-element-colon-notation": "double",
+    "selector-class-pattern": [
+      "^([-a-z]+)+(__([-a-z]+)+)?(_[-a-z]+){0,2}",
+      {
+        "message": "Selector class pattern does not match project conventions",
+        "resolveNestedSelectors": false
+      }
+    ],
+    "value-no-vendor-prefix": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue-test-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "@vue/vue3-jest": "29",
+    "babel-jest": "^29.4.1",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "vite": "^4.0.0"
+  }
+}
